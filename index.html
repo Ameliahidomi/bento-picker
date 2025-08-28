@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>多人同步便當轉盤</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <h1>🍱 多人同步便當轉盤</h1>
+  <div id="display">等待中...</div>
+  <button id="startBtn">開始</button>
+  <button id="stopBtn" disabled>停止</button>
+
+  <!-- 音效 -->
+  <audio id="tickSound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+  <audio id="dingSound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg" preload="auto"></audio>
+
+  <!-- Firebase v8 SDK -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+  <!-- 主程式 -->
+  <script src="assets/app.js"></script>
+</body>
+</html>

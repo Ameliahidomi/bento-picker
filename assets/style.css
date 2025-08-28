@@ -1,0 +1,36 @@
+body { 
+  font-family: "Microsoft JhengHei", sans-serif; 
+  text-align: center; 
+  background: url('https://i.imgur.com/WP8xK2K.jpg') no-repeat center center fixed; 
+  background-size: cover; 
+  padding-top: 30px; 
+}
+h1 { 
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+#display { 
+  font-size: 2em; 
+  margin: 30px auto; 
+  padding: 20px; 
+  width: 80%; 
+  background: rgba(255,243,224,0.9); 
+  border-radius: 15px; 
+  border: 3px solid #e67e22; 
+  transition: transform 0.1s ease;
+}
+button { 
+  font-size: 1.2em; 
+  margin: 10px; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  color: white; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+button:hover { transform: scale(1.1); }
+button:active { transform: scale(0.95); }
+#startBtn { background-color: #27ae60; }
+#stopBtn { background-color: #c0392b; }
